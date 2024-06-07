@@ -213,14 +213,11 @@ void HookProcessEnumeration(void)
     OriginalNtQuerySystemInformation = (PVOID)MmGetSystemRoutineAddress(&FunctionName);
 
     if (OriginalNtQuerySystemInformation) {
-        // Assuming you have a reliable way to write-protect the function pointer,
-        // and you should hook it here safely.
-        // Original function should be stored and restored later.
+
     }
 }
 
 void UnhookProcessEnumeration(void)
 {
-    // Assuming you have stored the original function pointer,
-    // restore it safely here.
+
 }
