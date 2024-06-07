@@ -1,5 +1,5 @@
-## ProcMonitor - Process Enumerator
-# Description
+# ProcMonitor - Process Enumerator
+## How it works
 
 ProcMonitor is an advanced Windows kernel-mode driver that shows techniques for intercepting and monitoring process enumeration. This project provides insights into hooking mechanisms, managing process lists, and interacting between user-mode and kernel-mode applications in Windows.
 Features
